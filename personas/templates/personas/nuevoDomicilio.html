@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST">
+    <h1>
+        Agregar Domicilio
+    </h1>
+    <table>
+        {{formaDomicilio}}
+    </table>
+    <button type=submit>Enviar</button>
+    {% csrf_token %}
+</form>
+</body>
+</html>
